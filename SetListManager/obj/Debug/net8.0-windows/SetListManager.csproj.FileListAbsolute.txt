@@ -14,3 +14,4 @@ C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\Set
 C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.genruntimeconfig.cache
 C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\SetListManager\SetListManager\obj\Debug\net8.0-windows\ref\SetListManager.dll
 C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.SetListManager_Form.resources
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.sourcelink.json
