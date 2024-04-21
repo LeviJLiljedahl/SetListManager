@@ -92,6 +92,7 @@
             bandListBox.Name = "bandListBox";
             bandListBox.Size = new Size(346, 202);
             bandListBox.TabIndex = 0;
+            bandListBox.SelectedIndexChanged += bandListBox_SelectedIndexChanged;
             // 
             // setlistListBox
             // 
@@ -102,6 +103,7 @@
             setlistListBox.Name = "setlistListBox";
             setlistListBox.Size = new Size(346, 256);
             setlistListBox.TabIndex = 1;
+            setlistListBox.SelectedIndexChanged += setlistListBox_SelectedIndexChanged;
             // 
             // songListBox
             // 
@@ -112,6 +114,7 @@
             songListBox.Name = "songListBox";
             songListBox.Size = new Size(346, 256);
             songListBox.TabIndex = 2;
+            songListBox.SelectedIndexChanged += songListBox_SelectedIndexChanged;
             // 
             // bandInfoGroupBox
             // 
@@ -144,6 +147,7 @@
             deleteBandButton.TabIndex = 12;
             deleteBandButton.Text = "Delete Band";
             deleteBandButton.UseVisualStyleBackColor = false;
+            deleteBandButton.Click += deleteBandButton_Click;
             // 
             // clearBandButton
             // 
@@ -154,6 +158,7 @@
             clearBandButton.TabIndex = 11;
             clearBandButton.Text = "Clear All";
             clearBandButton.UseVisualStyleBackColor = false;
+            clearBandButton.Click += clearBandButton_Click;
             // 
             // editBandButton
             // 
@@ -164,6 +169,7 @@
             editBandButton.TabIndex = 10;
             editBandButton.Text = "Edit Band";
             editBandButton.UseVisualStyleBackColor = false;
+            editBandButton.Click += editBandButton_Click;
             // 
             // addBandButton
             // 
@@ -174,6 +180,7 @@
             addBandButton.TabIndex = 9;
             addBandButton.Text = "Add Band";
             addBandButton.UseVisualStyleBackColor = false;
+            addBandButton.Click += addBandButton_Click;
             // 
             // genreTextBox
             // 
@@ -280,6 +287,7 @@
             deleteSetlistButton.TabIndex = 18;
             deleteSetlistButton.Text = "Delete SetList";
             deleteSetlistButton.UseVisualStyleBackColor = false;
+            deleteSetlistButton.Click += deleteSetlistButton_Click;
             // 
             // clearSetlistButton
             // 
@@ -290,6 +298,7 @@
             clearSetlistButton.TabIndex = 17;
             clearSetlistButton.Text = "Clear All";
             clearSetlistButton.UseVisualStyleBackColor = false;
+            clearSetlistButton.Click += clearSetlistButton_Click;
             // 
             // editSetlistButton
             // 
@@ -300,6 +309,7 @@
             editSetlistButton.TabIndex = 16;
             editSetlistButton.Text = "Edit SetList";
             editSetlistButton.UseVisualStyleBackColor = false;
+            editSetlistButton.Click += editSetlistButton_Click;
             // 
             // addSetlistButton
             // 
@@ -310,6 +320,7 @@
             addSetlistButton.TabIndex = 15;
             addSetlistButton.Text = "Add SetList";
             addSetlistButton.UseVisualStyleBackColor = false;
+            addSetlistButton.Click += addSetlistButton_Click;
             // 
             // durationTextBox
             // 
@@ -449,6 +460,7 @@
             deleteSongButton.TabIndex = 19;
             deleteSongButton.Text = "Delete Song";
             deleteSongButton.UseVisualStyleBackColor = false;
+            deleteSongButton.Click += deleteSongButton_Click;
             // 
             // clearSongButton
             // 
@@ -459,6 +471,7 @@
             clearSongButton.TabIndex = 18;
             clearSongButton.Text = "Clear All";
             clearSongButton.UseVisualStyleBackColor = false;
+            clearSongButton.Click += clearSongButton_Click;
             // 
             // editSongButton
             // 
@@ -469,6 +482,7 @@
             editSongButton.TabIndex = 17;
             editSongButton.Text = "Edit Song";
             editSongButton.UseVisualStyleBackColor = false;
+            editSongButton.Click += editSongButton_Click;
             // 
             // addSongButton
             // 
@@ -479,6 +493,7 @@
             addSongButton.TabIndex = 16;
             addSongButton.Text = "Add Song";
             addSongButton.UseVisualStyleBackColor = false;
+            addSongButton.Click += addSongButton_Click;
             // 
             // songRatingTextBox
             // 
