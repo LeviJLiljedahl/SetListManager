@@ -19,7 +19,7 @@ namespace SetListManager
 
         private void clearBandButton_Click(object sender, EventArgs e)
         {
-
+            ClearBand();
         }
 
         private void deleteBandButton_Click(object sender, EventArgs e)
@@ -44,7 +44,7 @@ namespace SetListManager
 
         private void clearSetlistButton_Click(object sender, EventArgs e)
         {
-
+            ClearSetList();
         }
 
         private void deleteSetlistButton_Click(object sender, EventArgs e)
@@ -69,7 +69,7 @@ namespace SetListManager
 
         private void clearSongButton_Click(object sender, EventArgs e)
         {
-
+            ClearSong();
         }
 
         private void deleteSongButton_Click(object sender, EventArgs e)
@@ -80,6 +80,41 @@ namespace SetListManager
         private void songListBox_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        public void ClearBand()
+        {
+            this.bandIDTextBox.Clear();
+            this.bandNameTextBox.Clear();
+            this.bandMembersTextBox.Clear();
+            this.genreTextBox.Clear();
+        }
+
+        public void ClearSetList()
+        {
+            this.setlistIDTextBox.Clear();
+            this.setlistNameTextBox.Clear();
+            this.moodTextBox.Clear();
+            this.setlistRatingTextBox.Clear();
+            this.numberSongsTextBox.Clear();
+            this.durationTextBox.Clear();
+        }
+
+        public void ClearSong()
+        {
+            this.songIDTextBox.Clear();
+            this.songNameTextBox.Clear();
+            this.artistTextBox.Clear();
+            this.asPerformedTextBox.Clear();
+            this.lengthTextBox.Clear();
+            this.songRatingTextBox.Clear();
+        }
+
+        public void ClearAll()
+        {
+            ClearBand();
+            ClearSetList();
+            ClearSong();
         }
     }
 }

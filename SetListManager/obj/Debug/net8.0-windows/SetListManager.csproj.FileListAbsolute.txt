@@ -15,3 +15,20 @@ C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\Set
 C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\SetListManager\SetListManager\obj\Debug\net8.0-windows\ref\SetListManager.dll
 C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.SetListManager_Form.resources
 C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.sourcelink.json
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\bin\Debug\net8.0-windows\SetListManager.exe
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\bin\Debug\net8.0-windows\SetListManager.deps.json
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\bin\Debug\net8.0-windows\SetListManager.runtimeconfig.json
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\bin\Debug\net8.0-windows\SetListManager.dll
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\bin\Debug\net8.0-windows\SetListManager.pdb
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.SetListManager_Form.resources
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.csproj.GenerateResource.cache
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.AssemblyInfoInputs.cache
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.AssemblyInfo.cs
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.csproj.CoreCompileInputs.cache
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.sourcelink.json
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.dll
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\refint\SetListManager.dll
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.pdb
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\SetListManager.genruntimeconfig.cache
+C:\Users\levij\OneDrive - Chippewa Valley Technical College\Desktop\Projects\In Progress\SetListManager\SetListManager\obj\Debug\net8.0-windows\ref\SetListManager.dll
