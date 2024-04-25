@@ -9,7 +9,12 @@ namespace SetListManager
 
         private void addBandButton_Click(object sender, EventArgs e)
         {
-
+            if ((bandNameTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("Company Name TextBox can not be blank.");
+                bandNameTextBox.Focus();
+                return;
+            }
         }
 
         private void editBandButton_Click(object sender, EventArgs e)
