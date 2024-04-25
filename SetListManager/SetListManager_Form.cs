@@ -11,9 +11,26 @@ namespace SetListManager
         {
             if ((bandNameTextBox.Text ?? "") == (string.Empty ?? ""))
             {
-                Msg("Company Name TextBox can not be blank.");
+                Msg("Band Name TextBox can not be blank.");
                 bandNameTextBox.Focus();
                 return;
+            }
+            else if ((bandMembersTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("Band Members TextBox can not be blank.");
+                bandMembersTextBox.Focus();
+                return;
+            }
+            else if ((genreTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("Genre TextBox can not be blank.");
+                genreTextBox.Focus();
+                return;
+            }
+            else
+            {
+                //Good Code goes here
+                Msg("Good Validated Code");
             }
         }
 
@@ -120,6 +137,11 @@ namespace SetListManager
             ClearBand();
             ClearSetList();
             ClearSong();
+        }
+
+        public void Msg(string msg)
+        {
+            MessageBox.Show(msg, "SetList Manager", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
         }
     }
 }
