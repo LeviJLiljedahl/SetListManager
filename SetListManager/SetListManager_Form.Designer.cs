@@ -92,6 +92,7 @@
             bandListBox.Name = "bandListBox";
             bandListBox.Size = new Size(346, 202);
             bandListBox.TabIndex = 0;
+            bandListBox.TabStop = false;
             bandListBox.SelectedIndexChanged += bandListBox_SelectedIndexChanged;
             // 
             // setlistListBox
@@ -103,6 +104,7 @@
             setlistListBox.Name = "setlistListBox";
             setlistListBox.Size = new Size(346, 256);
             setlistListBox.TabIndex = 1;
+            setlistListBox.TabStop = false;
             setlistListBox.SelectedIndexChanged += setlistListBox_SelectedIndexChanged;
             // 
             // songListBox
@@ -114,6 +116,7 @@
             songListBox.Name = "songListBox";
             songListBox.Size = new Size(346, 256);
             songListBox.TabIndex = 2;
+            songListBox.TabStop = false;
             songListBox.SelectedIndexChanged += songListBox_SelectedIndexChanged;
             // 
             // bandInfoGroupBox
@@ -134,7 +137,7 @@
             bandInfoGroupBox.Location = new Point(16, 15);
             bandInfoGroupBox.Name = "bandInfoGroupBox";
             bandInfoGroupBox.Size = new Size(885, 238);
-            bandInfoGroupBox.TabIndex = 3;
+            bandInfoGroupBox.TabIndex = 1;
             bandInfoGroupBox.TabStop = false;
             bandInfoGroupBox.Text = "Band Information";
             // 
@@ -144,7 +147,7 @@
             deleteBandButton.Location = new Point(378, 189);
             deleteBandButton.Name = "deleteBandButton";
             deleteBandButton.Size = new Size(116, 39);
-            deleteBandButton.TabIndex = 12;
+            deleteBandButton.TabIndex = 7;
             deleteBandButton.Text = "Delete Band";
             deleteBandButton.UseVisualStyleBackColor = false;
             deleteBandButton.Click += deleteBandButton_Click;
@@ -155,7 +158,7 @@
             clearBandButton.Location = new Point(254, 189);
             clearBandButton.Name = "clearBandButton";
             clearBandButton.Size = new Size(116, 39);
-            clearBandButton.TabIndex = 11;
+            clearBandButton.TabIndex = 6;
             clearBandButton.Text = "Clear All";
             clearBandButton.UseVisualStyleBackColor = false;
             clearBandButton.Click += clearBandButton_Click;
@@ -166,7 +169,7 @@
             editBandButton.Location = new Point(132, 189);
             editBandButton.Name = "editBandButton";
             editBandButton.Size = new Size(116, 39);
-            editBandButton.TabIndex = 10;
+            editBandButton.TabIndex = 5;
             editBandButton.Text = "Edit Band";
             editBandButton.UseVisualStyleBackColor = false;
             editBandButton.Click += editBandButton_Click;
@@ -177,7 +180,7 @@
             addBandButton.Location = new Point(8, 189);
             addBandButton.Name = "addBandButton";
             addBandButton.Size = new Size(116, 39);
-            addBandButton.TabIndex = 9;
+            addBandButton.TabIndex = 4;
             addBandButton.Text = "Add Band";
             addBandButton.UseVisualStyleBackColor = false;
             addBandButton.Click += addBandButton_Click;
@@ -188,7 +191,7 @@
             genreTextBox.Location = new Point(86, 141);
             genreTextBox.Name = "genreTextBox";
             genreTextBox.Size = new Size(406, 25);
-            genreTextBox.TabIndex = 8;
+            genreTextBox.TabIndex = 3;
             // 
             // bandMembersTextBox
             // 
@@ -196,7 +199,7 @@
             bandMembersTextBox.Location = new Point(152, 105);
             bandMembersTextBox.Name = "bandMembersTextBox";
             bandMembersTextBox.Size = new Size(340, 25);
-            bandMembersTextBox.TabIndex = 7;
+            bandMembersTextBox.TabIndex = 2;
             // 
             // bandNameTextBox
             // 
@@ -204,7 +207,7 @@
             bandNameTextBox.Location = new Point(122, 71);
             bandNameTextBox.Name = "bandNameTextBox";
             bandNameTextBox.Size = new Size(370, 25);
-            bandNameTextBox.TabIndex = 6;
+            bandNameTextBox.TabIndex = 1;
             // 
             // bandIDTextBox
             // 
@@ -213,7 +216,8 @@
             bandIDTextBox.Location = new Point(98, 36);
             bandIDTextBox.Name = "bandIDTextBox";
             bandIDTextBox.Size = new Size(394, 25);
-            bandIDTextBox.TabIndex = 5;
+            bandIDTextBox.TabIndex = 1;
+            bandIDTextBox.TabStop = false;
             // 
             // genreLabel
             // 
@@ -273,7 +277,7 @@
             setlistInfoGroupBox.Location = new Point(16, 261);
             setlistInfoGroupBox.Name = "setlistInfoGroupBox";
             setlistInfoGroupBox.Size = new Size(885, 297);
-            setlistInfoGroupBox.TabIndex = 4;
+            setlistInfoGroupBox.TabIndex = 2;
             setlistInfoGroupBox.TabStop = false;
             setlistInfoGroupBox.Text = "SetList Information";
             // 
@@ -284,7 +288,7 @@
             deleteSetlistButton.Location = new Point(378, 252);
             deleteSetlistButton.Name = "deleteSetlistButton";
             deleteSetlistButton.Size = new Size(116, 39);
-            deleteSetlistButton.TabIndex = 18;
+            deleteSetlistButton.TabIndex = 16;
             deleteSetlistButton.Text = "Delete SetList";
             deleteSetlistButton.UseVisualStyleBackColor = false;
             deleteSetlistButton.Click += deleteSetlistButton_Click;
@@ -295,7 +299,7 @@
             clearSetlistButton.Location = new Point(254, 252);
             clearSetlistButton.Name = "clearSetlistButton";
             clearSetlistButton.Size = new Size(116, 39);
-            clearSetlistButton.TabIndex = 17;
+            clearSetlistButton.TabIndex = 15;
             clearSetlistButton.Text = "Clear All";
             clearSetlistButton.UseVisualStyleBackColor = false;
             clearSetlistButton.Click += clearSetlistButton_Click;
@@ -306,7 +310,7 @@
             editSetlistButton.Location = new Point(132, 252);
             editSetlistButton.Name = "editSetlistButton";
             editSetlistButton.Size = new Size(116, 39);
-            editSetlistButton.TabIndex = 16;
+            editSetlistButton.TabIndex = 14;
             editSetlistButton.Text = "Edit SetList";
             editSetlistButton.UseVisualStyleBackColor = false;
             editSetlistButton.Click += editSetlistButton_Click;
@@ -317,7 +321,7 @@
             addSetlistButton.Location = new Point(8, 252);
             addSetlistButton.Name = "addSetlistButton";
             addSetlistButton.Size = new Size(116, 39);
-            addSetlistButton.TabIndex = 15;
+            addSetlistButton.TabIndex = 13;
             addSetlistButton.Text = "Add SetList";
             addSetlistButton.UseVisualStyleBackColor = false;
             addSetlistButton.Click += addSetlistButton_Click;
@@ -328,7 +332,7 @@
             durationTextBox.Location = new Point(113, 205);
             durationTextBox.Name = "durationTextBox";
             durationTextBox.Size = new Size(379, 25);
-            durationTextBox.TabIndex = 14;
+            durationTextBox.TabIndex = 12;
             // 
             // numberSongsTextBox
             // 
@@ -336,7 +340,7 @@
             numberSongsTextBox.Location = new Point(171, 170);
             numberSongsTextBox.Name = "numberSongsTextBox";
             numberSongsTextBox.Size = new Size(321, 25);
-            numberSongsTextBox.TabIndex = 13;
+            numberSongsTextBox.TabIndex = 11;
             // 
             // setlistRatingTextBox
             // 
@@ -344,7 +348,7 @@
             setlistRatingTextBox.Location = new Point(175, 135);
             setlistRatingTextBox.Name = "setlistRatingTextBox";
             setlistRatingTextBox.Size = new Size(317, 25);
-            setlistRatingTextBox.TabIndex = 12;
+            setlistRatingTextBox.TabIndex = 10;
             // 
             // moodTextBox
             // 
@@ -352,7 +356,7 @@
             moodTextBox.Location = new Point(148, 99);
             moodTextBox.Name = "moodTextBox";
             moodTextBox.Size = new Size(344, 25);
-            moodTextBox.TabIndex = 11;
+            moodTextBox.TabIndex = 9;
             // 
             // setlistNameTextBox
             // 
@@ -360,7 +364,7 @@
             setlistNameTextBox.Location = new Point(142, 64);
             setlistNameTextBox.Name = "setlistNameTextBox";
             setlistNameTextBox.Size = new Size(352, 25);
-            setlistNameTextBox.TabIndex = 10;
+            setlistNameTextBox.TabIndex = 8;
             // 
             // setlistIDTextBox
             // 
@@ -369,7 +373,8 @@
             setlistIDTextBox.Location = new Point(120, 29);
             setlistIDTextBox.Name = "setlistIDTextBox";
             setlistIDTextBox.Size = new Size(372, 25);
-            setlistIDTextBox.TabIndex = 9;
+            setlistIDTextBox.TabIndex = 8;
+            setlistIDTextBox.TabStop = false;
             // 
             // durationLabel
             // 
@@ -447,7 +452,7 @@
             songInfoTextBox.Location = new Point(16, 566);
             songInfoTextBox.Name = "songInfoTextBox";
             songInfoTextBox.Size = new Size(885, 291);
-            songInfoTextBox.TabIndex = 5;
+            songInfoTextBox.TabIndex = 3;
             songInfoTextBox.TabStop = false;
             songInfoTextBox.Text = "Song Information";
             // 
@@ -457,7 +462,7 @@
             deleteSongButton.Location = new Point(378, 245);
             deleteSongButton.Name = "deleteSongButton";
             deleteSongButton.Size = new Size(116, 39);
-            deleteSongButton.TabIndex = 19;
+            deleteSongButton.TabIndex = 25;
             deleteSongButton.Text = "Delete Song";
             deleteSongButton.UseVisualStyleBackColor = false;
             deleteSongButton.Click += deleteSongButton_Click;
@@ -468,7 +473,7 @@
             clearSongButton.Location = new Point(254, 245);
             clearSongButton.Name = "clearSongButton";
             clearSongButton.Size = new Size(116, 39);
-            clearSongButton.TabIndex = 18;
+            clearSongButton.TabIndex = 24;
             clearSongButton.Text = "Clear All";
             clearSongButton.UseVisualStyleBackColor = false;
             clearSongButton.Click += clearSongButton_Click;
@@ -479,7 +484,7 @@
             editSongButton.Location = new Point(132, 245);
             editSongButton.Name = "editSongButton";
             editSongButton.Size = new Size(116, 39);
-            editSongButton.TabIndex = 17;
+            editSongButton.TabIndex = 23;
             editSongButton.Text = "Edit Song";
             editSongButton.UseVisualStyleBackColor = false;
             editSongButton.Click += editSongButton_Click;
@@ -490,7 +495,7 @@
             addSongButton.Location = new Point(8, 245);
             addSongButton.Name = "addSongButton";
             addSongButton.Size = new Size(116, 39);
-            addSongButton.TabIndex = 16;
+            addSongButton.TabIndex = 22;
             addSongButton.Text = "Add Song";
             addSongButton.UseVisualStyleBackColor = false;
             addSongButton.Click += addSongButton_Click;
@@ -501,7 +506,7 @@
             songRatingTextBox.Location = new Point(173, 201);
             songRatingTextBox.Name = "songRatingTextBox";
             songRatingTextBox.Size = new Size(319, 25);
-            songRatingTextBox.TabIndex = 14;
+            songRatingTextBox.TabIndex = 21;
             // 
             // lengthTextBox
             // 
@@ -509,7 +514,7 @@
             lengthTextBox.Location = new Point(95, 165);
             lengthTextBox.Name = "lengthTextBox";
             lengthTextBox.Size = new Size(397, 25);
-            lengthTextBox.TabIndex = 13;
+            lengthTextBox.TabIndex = 20;
             // 
             // asPerformedTextBox
             // 
@@ -517,7 +522,7 @@
             asPerformedTextBox.Location = new Point(171, 130);
             asPerformedTextBox.Name = "asPerformedTextBox";
             asPerformedTextBox.Size = new Size(321, 25);
-            asPerformedTextBox.TabIndex = 12;
+            asPerformedTextBox.TabIndex = 19;
             // 
             // artistTextBox
             // 
@@ -525,7 +530,7 @@
             artistTextBox.Location = new Point(162, 97);
             artistTextBox.Name = "artistTextBox";
             artistTextBox.Size = new Size(330, 25);
-            artistTextBox.TabIndex = 11;
+            artistTextBox.TabIndex = 18;
             // 
             // songNameTextBox
             // 
@@ -533,7 +538,7 @@
             songNameTextBox.Location = new Point(120, 62);
             songNameTextBox.Name = "songNameTextBox";
             songNameTextBox.Size = new Size(372, 25);
-            songNameTextBox.TabIndex = 10;
+            songNameTextBox.TabIndex = 17;
             // 
             // songIDTextBox
             // 
@@ -542,7 +547,8 @@
             songIDTextBox.Location = new Point(96, 27);
             songIDTextBox.Name = "songIDTextBox";
             songIDTextBox.Size = new Size(396, 25);
-            songIDTextBox.TabIndex = 9;
+            songIDTextBox.TabIndex = 17;
+            songIDTextBox.TabStop = false;
             // 
             // songRatingLabel
             // 

@@ -56,7 +56,41 @@ namespace SetListManager
 
         private void addSetlistButton_Click(object sender, EventArgs e)
         {
-
+            if ((setlistNameTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("SetList Name TextBox can not be blank.");
+                setlistNameTextBox.Focus();
+                return;
+            }
+            else if ((moodTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("SetList Overall Mood TextBox can not be blank.");
+                moodTextBox.Focus();
+                return;
+            }
+            else if ((setlistRatingTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("SetList Rating TextBox can not be blank.");
+                setlistRatingTextBox.Focus();
+                return;
+            }
+            else if ((numberSongsTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("SetList Number of Songs TextBox can not be blank.");
+                numberSongsTextBox.Focus();
+                return;
+            }
+            else if ((durationTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("SetList Duration TextBox can not be blank.");
+                durationTextBox.Focus();
+                return;
+            }
+            else
+            {
+                //Good Code goes here
+                Msg("Good Validated Code");
+            }
         }
 
         private void editSetlistButton_Click(object sender, EventArgs e)
@@ -81,7 +115,41 @@ namespace SetListManager
 
         private void addSongButton_Click(object sender, EventArgs e)
         {
-
+            if ((songNameTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("Song Name TextBox can not be blank.");
+                songNameTextBox.Focus();
+                return;
+            }
+            else if ((artistTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("Song's Original Artist TextBox can not be blank.");
+                artistTextBox.Focus();
+                return;
+            }
+            else if ((asPerformedTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("As Performed By TextBox can not be blank.");
+                asPerformedTextBox.Focus();
+                return;
+            }
+            else if ((lengthTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("Song's Length TextBox can not be blank.");
+                lengthTextBox.Focus();
+                return;
+            }
+            else if ((songRatingTextBox.Text ?? "") == (string.Empty ?? ""))
+            {
+                Msg("Song's Readiness Rating TextBox can not be blank.");
+                songRatingTextBox.Focus();
+                return;
+            }
+            else
+            {
+                //Good Code goes here
+                Msg("Good Validated Code");
+            }
         }
 
         private void editSongButton_Click(object sender, EventArgs e)
