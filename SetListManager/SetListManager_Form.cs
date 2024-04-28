@@ -1,3 +1,7 @@
+//Author: Levi J. Liljedahl
+//Date: 04/25/2024
+//Purpose: Allow multiple bands or musical artists to create multiple set lists and record inforamtion about those set lists.
+
 namespace SetListManager
 {
     public partial class SetListManager_Form : Form
