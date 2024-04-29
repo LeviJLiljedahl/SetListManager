@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SetListManager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb676d22ffb9f21c6d6cd5b26f7f1bab8f21a5c5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e39cac4fd1aac226319dd82775e864c9f5bb5ba0")]
 [assembly: System.Reflection.AssemblyProductAttribute("SetListManager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SetListManager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

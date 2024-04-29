@@ -33,7 +33,7 @@ namespace SetListManager
             }
             else
             {
-                //Good Code goes here
+                //Good Validated Code goes here
                 Msg("Good Validated Code");
             }
         }
@@ -92,7 +92,7 @@ namespace SetListManager
             }
             else
             {
-                //Good Code goes here
+                //Good Validated Code goes here
                 Msg("Good Validated Code");
             }
         }
@@ -151,7 +151,7 @@ namespace SetListManager
             }
             else
             {
-                //Good Code goes here
+                //Good Validated Code goes here
                 Msg("Good Validated Code");
             }
         }
@@ -178,6 +178,8 @@ namespace SetListManager
 
         public void ClearBand()
         {
+            // Clear band textboxes
+
             this.bandIDTextBox.Clear();
             this.bandNameTextBox.Clear();
             this.bandMembersTextBox.Clear();
@@ -186,6 +188,8 @@ namespace SetListManager
 
         public void ClearSetList()
         {
+            //Clear set list textboxes
+
             this.setlistIDTextBox.Clear();
             this.setlistNameTextBox.Clear();
             this.moodTextBox.Clear();
@@ -196,6 +200,8 @@ namespace SetListManager
 
         public void ClearSong()
         {
+            // Clear song textboxes
+
             this.songIDTextBox.Clear();
             this.songNameTextBox.Clear();
             this.artistTextBox.Clear();
@@ -206,6 +212,8 @@ namespace SetListManager
 
         public void ClearAll()
         {
+            //Clear all text boxes, used in certain click events and functions
+
             ClearBand();
             ClearSetList();
             ClearSong();
@@ -213,6 +221,8 @@ namespace SetListManager
 
         public void Msg(string msg)
         {
+            //Default message box for all validation
+
             MessageBox.Show(msg, "SetList Manager", MessageBoxButtons.OK, MessageBoxIcon.Error, MessageBoxDefaultButton.Button1);
         }
     }
