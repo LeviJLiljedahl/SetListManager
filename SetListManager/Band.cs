@@ -55,7 +55,7 @@ namespace SetListManager
         // Override to string for listbox
         public override string ToString()
         {
-            return cBandID + " - " + BandName;
+            return cBandID + " - " + cBandName;
         }
     }
 }
