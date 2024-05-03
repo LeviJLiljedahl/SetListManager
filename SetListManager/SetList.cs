@@ -1,6 +1,6 @@
 ﻿//Author: Levi Liljedahl
 //Date: 04/29/2024
-//Purpose: 
+//Purpose: Manage the SetList
 
 using System;
 using System.Collections.Generic;
